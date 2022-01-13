@@ -3,13 +3,43 @@ body{
     font-family: 'Comfortaa', cursive;
     font-family: 'Genos', sans-serif; 
 }
+/* **********************section1 style************************* */
 
+.container-1{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+}
+.container1-img img{
+    width: 30em;
+}
+.container1-text{
+    width: 20em;
+    height: 15em;
+    font-size:2em;
+}
+.container1-text p{
+    font-size:20px;
+    text-align: justify;
+    width: 21em;
+}
+.container1-text button{
+    width: 10em;
+    height: 4em;
+    margin-top: 20px;
+    border: 1px solid gainsboro;
+    border-radius: 3em;
+    background:linear-gradient(120deg,orange,red);
+    color: white;
+    font-weight: 900;
+}
 /* **********************section2 style************************* */
 .container-2{
     display: flex;
     justify-content:space-evenly;
     align-items: center;
     background-image: url(/images/shapes//7.png);
+    background-repeat: no-repeat;
 }
 .container2-img img{
     width: 19em;
