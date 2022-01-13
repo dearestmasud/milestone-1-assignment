@@ -1,0 +1,25 @@
+body{
+    margin: 0;
+    font-family: 'Comfortaa', cursive;
+    font-family: 'Genos', sans-serif; 
+}
+
+
+
+
+/* footer style */
+
+.footer{
+    font-size: 2em;
+    background-color: black;
+    color: white;
+    text-align: center;
+    height: 7em;
+}
+.color1{
+    color: salmon;
+    margin-right: 0.4em;
+}
+.color2{
+    color: rgb(153, 153, 124);
+}
