@@ -4,10 +4,83 @@ body{
     font-family: 'Genos', sans-serif; 
 }
 
+/* **********************section2 style************************* */
+.container-2{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    background-image: url(/images/shapes//7.png);
+}
+.container2-img img{
+    width: 19em;
+}
+.container2-text{
+    width: 21em;
+    font-size:1.3em;
+}
+.container2-text button{
+    width: 10em;
+    height: 4em;
+    margin-top: 20px;
+    border: 1px solid gainsboro;
+    border-radius: 3em;
+    background:linear-gradient(120deg,orange,red);
+    color: white;
+    font-weight: 800;
+    font-size: 0.7em;
+}
+/* **********************section 3 style************************* */
 
-
-
-/* footer style */
+.container3{
+    display: block;
+}
+.recipie{
+    text-align: center;
+    width: 30em;
+    margin: 0 auto;
+    font-size: x-large;
+}
+.recipie h1{
+    font-size:40px;
+}
+.recipie h4{
+    font-weight: 300;
+    text-align:center;
+    color: rgba(0, 0, 0, 0.529);
+}
+.box-style{
+    display: flex;
+    justify-content:space-evenly;
+}
+.box1{
+    width: 19em;
+    text-align: justify;
+    border: 1px solid white;
+    border-radius: 1em;
+    box-shadow: 0px 0px 10px 0px gainsboro;
+}
+.box1-img img{
+    margin: 1.5em;
+   width: 16em; 
+}
+.box1-text{
+    padding: 1em;
+    font-size: 1.2em;
+}
+.public-opinion{
+    margin-top: 5em;
+    margin-left: 20%;
+    width: 50rem;
+    display: flex;
+    justify-content:space-around;
+    box-shadow: 0px 0px 10px 0px gainsboro;
+    border-radius: 10px;
+}
+.opinions h1{
+    font-size:2.3em;
+    text-align: center;
+}
+/* *************footer style ************** */
 
 .footer{
     font-size: 2em;
