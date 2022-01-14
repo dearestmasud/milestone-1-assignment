@@ -38,7 +38,7 @@ body{
     display: flex;
     justify-content:space-evenly;
     align-items: center;
-    background-image: url(/7.png);
+    background-image: url(7.png);
     background-repeat: no-repeat;
 }
 .container2-img img{
